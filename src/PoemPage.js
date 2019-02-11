@@ -5,14 +5,15 @@ export default function PoemPage(props) {
   const poem = POEMS.find(p =>
     p.id === props.match.params.poemId
   )
+  console.log(poem); 
   return (
     <article className='Poem'>
-      <h2>{poem.title}</h2>
-      {poem.content.map((p, i) =>
+      {/* <h2>{poem.title}</h2>
+      {/* {poem.content.map((p, i) =>
         (p === '')
           ? <br key={i} />
           : <p key={i}>{p}</p>
-      )}
+      )} */} */}
     </article>
   )
 }
