@@ -9,11 +9,11 @@ export default function PoemPage(props) {
   return (
     <article className='Poem'>
       {/* <h2>{poem.title}</h2>
-      {/* {poem.content.map((p, i) =>
+      {poem.content.map((p, i) =>
         (p === '')
           ? <br key={i} />
           : <p key={i}>{p}</p>
-      )} */} */}
+      )} */}
     </article>
   )
 }
